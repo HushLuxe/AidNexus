@@ -100,3 +100,11 @@ pnpm start
 - Mobile: `cd app/mobile && pnpm test && pnpm lint`
 - AI service: `cd app/ai-service && pytest`
 
+## Contributing
+
+We review contributor branches frequently. Keep PRs small and focused, and include:
+- A clear problem statement + acceptance criteria
+- Tests or a short manual test plan
+- No secrets committed (keys, tokens, seed phrases)
+
+For component-specific contribution details, follow the README in each folder linked above.

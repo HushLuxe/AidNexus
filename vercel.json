@@ -1,6 +1,4 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "app/frontend/package.json", "use": "@vercel/next" }
-  ]
+  "buildCommand": "pnpm --filter frontend build",
+  "outputDirectory": "app/frontend/.next"
 }
